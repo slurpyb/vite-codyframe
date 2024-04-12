@@ -1,0 +1,16 @@
+{
+  "name": "vite-codyframe",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --config ./src/vite.config.js",
+    "build": "vite build --config ./src/vite.config.js",
+    "preview": "vite preview --config ./src/vite.config.js"
+  },
+  "devDependencies": {
+    "codyframe": "^4.0.0",
+    "sass": "^1.75.0",
+    "vite": "^5.2.0"
+  }
+}
