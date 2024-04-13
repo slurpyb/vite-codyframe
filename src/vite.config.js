@@ -1,5 +1,6 @@
 import { resolve } from 'path'
 import { defineConfig } from 'vite';
+import  sourcemaps from 'rollup-plugin-sourcemaps';
 export default defineConfig({
     // build: {
     //     rollupOptions: {
@@ -14,6 +15,7 @@ export default defineConfig({
     //     //   }
     //     },
     // },
+    plugins: [sourcemaps()],
     root: 'src',
     build: {
       outDir: '../dist',

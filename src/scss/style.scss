@@ -1,12 +1,25 @@
-@use 'reset';
-@use 'config' as *; // ← customize the framework
+// @use 'reset';
+// @use 'config' as *; // ← customize the framework
 
-// ↓ copy & modify these templates locally
+// // ↓ copy & modify these templates locally
+// @use 'typography';
+// @use 'icons';
+// @use 'buttons';
+// @use 'forms';
+
+// // ← import here the CodyHouse components
+// @use 'components/*.scss';
+
+// @use 'util'; // ← utility classes
+@use '../../node_modules/codyframe/main/scss/reset';
+@use '../../node_modules/codyframe/main/scss/config' as *;
 @use 'typography';
 @use 'icons';
 @use 'buttons';
 @use 'forms';
+// @use 'components/*.scss';
 
 // ← import here the CodyHouse components
+// @use 'components/_1_404' as *;
 
-@use 'util'; // ← utility classes
+// @use '../../node_modules/codyframe/main/scss/util';

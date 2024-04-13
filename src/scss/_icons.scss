@@ -1,4 +1,5 @@
-@use 'config' as *;
+// @use 'config' as *;
+@use '../../node_modules/codyframe/main/scss/config' as *;
 // --- 👆 update this path if you're importing CodyFrame as npm module
 // e.g., '../../../node_modules/codyframe/main/scss/config'
 

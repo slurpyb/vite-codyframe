@@ -1,8 +1,18 @@
 // import './style.css'
 import '../scss/style.scss'
+
+// Import your SCSS components
+// import '../scss/components/_1_404.scss'
+
+import '../../node_modules/codyframe/main/scss/util.scss'
+
+// import { Accordion } from './components/_1_accordion.js'
 import javascriptLogo from '../img/javascript.svg'
 import viteLogo from '../img/vite.svg'
 import { setupCounter } from './counter.js'
+
+// Import your JS Components
+// import './components/_1_adaptive-navigation.js'
 
 document.querySelector('#app').innerHTML = `
   <div>
